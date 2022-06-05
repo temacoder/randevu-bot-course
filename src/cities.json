@@ -1,0 +1,16 @@
+{
+  "data": [
+    { "name": "Берлин",
+      "code": "berlin"
+    },
+    { "name": "Франкфурт",
+      "code": "frankfurt"
+    },
+    { "name": "Баден-Баден",
+      "code": "badenBaden"
+    },
+    { "name": "Кёльн",
+      "code": "keln"
+    }
+  ]
+}
