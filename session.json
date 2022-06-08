@@ -1,2 +1,16 @@
 {
+  "sessions": [
+    {
+      "id": "210813875:210813875",
+      "data": {
+        "step": "end",
+        "name": "Тамара Тимофеева",
+        "socLink": "https://vk.com/tamara",
+        "job": "Дизайнер",
+        "hobby": "Путешествие",
+        "dateOfBirth": "12.06.1988",
+        "city": "Берлин"
+      }
+    }
+  ]
 }

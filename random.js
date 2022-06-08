@@ -8,6 +8,8 @@ module.exports.Random = (bot, db) => {
     return filter
   })
 
+  console.log(cityArray)
+
   cityArray.map(item => {
     if (item.length >= 2) {
       const user1 = item[getRandomInt(0, item.length - 1)]

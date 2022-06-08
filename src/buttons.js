@@ -11,11 +11,11 @@ module.exports.InlineKeyboard = {
   },
   cities: () => {
     return JSON.stringify({
-      inline_keyboard: createCitiesButttons()
+      inline_keyboard: createCitiesButtons()
     })
-  },
+  }
 }
 
-const createCitiesButttons = () => {
-  return cities.data.map(item => [ { text: item.name, callback_data: `city-${item.code}` } ])
+const createCitiesButtons = () => {
+  return cities.data.map(item => [{ text: item.name, callback_data: `city-${item.code}` }])
 }

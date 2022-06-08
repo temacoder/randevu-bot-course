@@ -20,7 +20,7 @@ Server.configure(bot)
 CommandHandler(bot, db)
 CallbackHandler(bot, db)
 TextHandler(bot, db)
-Random(bot, db)
-setTimeout(() => {
-  Random(bot, db)
-}, 1000 * 60 * 60 * 24)
+// Random(bot, db)
+// setTimeout(() => {
+//   Random(bot, db)
+// }, 1000 * 60 * 60 * 24)
